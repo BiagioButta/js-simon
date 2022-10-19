@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/libreria.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class=".container d-flex flex-column text-center">
+
+        <h1>Hai al massimo 60 secondi per memorizzare i numeri</h1>
+
+        <div class="d-flex justify-content-center">
+
+            <input class="fs-4" id="tempo" type="number" min="1" max="60" placeholder="Quanto pensi di impiegare?">
+            <button class="btn btn-primary" id="start">Start</button>
+
+        </div>
+
+
+        <div id="timer" class="debug fs-3"></div>
+        <div id="numeri" class="debug fs-3 fw-bold"></div>
+
+    </div>
+      
+
+    
+    <script src="./script/script.js"></script>
+</body>
+</html>
